@@ -933,3 +933,614 @@ Make sure 'ThirdPersonCharacter_C' has been compiled for  Call GetNewPlayer
 [2020.02.17-20.16.14:668][920]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2020.02.17-20.16.16:641][ 36]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
 [2020.02.17-20.16.16:641][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.17-20.45.43:041][472]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BTE06F4B014C7EA148BF678E9121D7EE46.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-20.45.43:341][472]LogUObjectHash: Compacting FUObjectHashTables data took   5.53ms
+[2020.02.17-20.45.43:407][472]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.02.17-20.45.43:455][472]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.02.17-20.45.43:528][472]AssetCheck: New page: Asset Save: AI_BT
+[2020.02.17-20.45.43:529][472]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-20.46.09:919][687]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.02.17-20.46.09:924][687]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.099
+[2020.02.17-20.46.09:926][687]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard] ([1] browsable assets)...
+[2020.02.17-20.46.09:926][687]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard]
+[2020.02.17-20.46.09:945][687]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_Blackboard_Auto117B2180E4F2839AC755550ACEBADB651.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard_Auto1.uasset'
+[2020.02.17-20.46.09:947][687]LogFileHelpers: Auto-saving content packages took 0.022
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.SKEL_BP_AI_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.SKEL_BP_AI_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.SKEL_BP_AI_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.SKEL_BP_AI_C:ReceiveAnyDamage' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.SKEL_BP_AI_C:Health' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.SKEL_BP_AI_C:HealthBar' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.SKEL_BP_AI_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.SKEL_BP_AI_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:703][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI_C:Health' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:704][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI_C:HealthBar' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:704][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI_C:ReceiveAnyDamage' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:704][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:704][249]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI.PackageMetaData'
+[2020.02.17-20.46.34:922][249]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/BP_AI6A1A55FE491838989C1582984D719032.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.uasset'
+[2020.02.17-20.46.34:942][249]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/BP_AIA6B35A3D4C05800570B50199D3ACFB3B.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/BP_AI.uasset'
+[2020.02.17-20.46.35:036][249]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.17-20.46.35:036][249]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI
+[2020.02.17-20.46.35:036][249]LogContentValidation: Display: Validating ObjectRedirector /Game/ThirdPersonBP/Blueprints/Part2/BP_AI.BP_AI
+[2020.02.17-20.46.35:036][249]LogContentValidation: Display: Validating ObjectRedirector /Game/ThirdPersonBP/Blueprints/Part2/BP_AI.Default__BP_AI_C
+[2020.02.17-20.46.35:036][249]LogContentValidation: Display: Validating ObjectRedirector /Game/ThirdPersonBP/Blueprints/Part2/BP_AI.BP_AI_C
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.SKEL_BP_AI_Controller_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.SKEL_BP_AI_Controller_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.SKEL_BP_AI_Controller_C:PatrolPoint' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.SKEL_BP_AI_Controller_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.SKEL_BP_AI_Controller_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller_C:PatrolPoint' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller_C:ReceiveTick' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:886][416]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/BP_AI_Controller.PackageMetaData'
+[2020.02.17-20.46.37:943][416]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/BP_AI_Controller08C8F0B64D92A49AADBC95A7D5D7C560.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.uasset'
+[2020.02.17-20.46.38:249][416]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2020.02.17-20.46.38:314][416]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.02.17-20.46.38:365][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.02.17-20.46.38:446][416]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/BP_AIF7F0FEB644D80A4DDC4FD38C9E3981E8.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.uasset'
+[2020.02.17-20.46.38:539][416]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.17-20.46.38:539][416]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller
+[2020.02.17-20.46.38:539][416]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI.BP_AI
+[2020.02.17-20.46.41:847][589]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2020.02.17-20.46.42:372][589]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/ThirdPersonExampleMap43A37F584C117A10F93C8E90906D5FE1.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.02.17-20.46.42:451][589]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.658
+[2020.02.17-20.46.42:617][589]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2020.02.17-20.46.45:025][589]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.02.17-20.46.45:093][589]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.02.17-20.46.45:142][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.02.17-20.46.45:150][589]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2020.02.17-20.46.45:150][589]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.02.17-20.46.59:127][393]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller
+[2020.02.17-20.47.01:170][495]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-20.47.01:170][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.17-20.47.02:016][541]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-20.47.02:016][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.17-20.47.02:041][541]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-20.47.02:041][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.17-20.47.03:040][595]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-20.47.03:040][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.17-20.47.41:645][998]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-20.56.42:004][494]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2020.02.17-20.56.42:009][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.122
+[2020.02.17-20.56.42:009][494]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller] ([1] browsable assets)...
+[2020.02.17-20.56.42:010][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller]
+[2020.02.17-20.56.42:035][494]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/BP_AI_Controller_Auto2186A43824DB2A7594D6F748E5EEA3B8D.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller_Auto2.uasset'
+[2020.02.17-20.56.42:036][494]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT] ([1] browsable assets)...
+[2020.02.17-20.56.42:036][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT]
+[2020.02.17-20.56.42:048][494]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT_Auto20A1285854D67CF29E57B7F8F001DB352.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT_Auto2.uasset'
+[2020.02.17-20.56.42:099][494]LogFileHelpers: Auto-saving content packages took 0.090
+[2020.02.17-20.58.46:254][536]LogUObjectHash: Compacting FUObjectHashTables data took   7.18ms
+[2020.02.17-20.58.46:312][536]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/BP_AI_ControllerBFF32F3C44405EFBDB7C4695F0B088CB.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.uasset'
+[2020.02.17-20.58.46:386][536]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT44EA967148510853D8C77D99E3B6BEB9.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-20.58.46:397][536]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BlackboardDB11ACB84F4A41AA23E70980266A450F.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.uasset'
+[2020.02.17-20.58.46:435][536]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.17-20.58.46:435][536]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/BP_AI_Controller.BP_AI_Controller
+[2020.02.17-20.58.46:435][536]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-20.58.46:435][536]LogContentValidation: Display: Validating BlackboardData /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.AI_Blackboard
+[2020.02.17-21.02.32:940][640]LogBehaviorTree: Warning: > Failed to find key 'None' in BB asset BlackboardData /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.AI_Blackboard. BB Key Selector will be set to 'Invalid'
+[2020.02.17-21.02.32:940][640]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.AI_Blackboard. BB Key Selector will be set to 'Invalid'
+[2020.02.17-21.03.23:394][655]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'Player' in BB asset BlackboardData /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.AI_Blackboard. BB Key Selector will be set to 'Invalid'
+[2020.02.17-21.05.22:073][532]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.02.17-21.05.22:134][532]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BTF57920BB4749194939AC9993616251E1.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-21.05.22:147][532]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_Blackboard79C0D932421FA1CC5190E7B9A438DEBC.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.uasset'
+[2020.02.17-21.05.22:170][532]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.17-21.05.22:170][532]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-21.05.22:170][532]LogContentValidation: Display: Validating BlackboardData /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.AI_Blackboard
+[2020.02.17-21.06.54:813][ 19]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2020.02.17-21.06.55:129][ 19]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/ThirdPersonBP/Blueprints/Part2/AI/BTService_BlueprintBase_New.
+[2020.02.17-21.07.13:629][102]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2020.02.17-21.07.13:640][102]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/Service_FindPlayer.SKEL_Service_FindPlayer_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2020.02.17-21.07.13:640][102]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/Service_FindPlayer.Service_FindPlayer_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2020.02.17-21.07.13:685][102]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Service_FindPlayerD0772C8D4977A4D48347DF864F74FEE0.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/Service_FindPlayer.uasset'
+[2020.02.17-21.07.13:903][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.02.17-21.07.13:956][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.02.17-21.07.13:990][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.02.17-21.07.14:057][102]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ThirdPersonBP/Blueprints/Part2/AI/Service_FindPlayer.
+[2020.02.17-21.07.14:065][102]AssetCheck: New page: Asset Save: Service_FindPlayer
+[2020.02.17-21.07.14:065][102]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/Service_FindPlayer.Service_FindPlayer
+[2020.02.17-21.08.58:520][911]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2020.02.17-21.08.58:522][911]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.058
+[2020.02.17-21.08.58:522][911]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT] ([1] browsable assets)...
+[2020.02.17-21.08.58:522][911]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT]
+[2020.02.17-21.08.58:537][911]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT_Auto3113DF9E04CFF6F8302F5B688272D1FE1.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT_Auto3.uasset'
+[2020.02.17-21.08.58:539][911]LogFileHelpers: Auto-saving content packages took 0.017
+[2020.02.17-21.12.05:224][844]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.02.17-21.13.53:372][553]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2020.02.17-21.13.53:685][553]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/ThirdPersonBP/Blueprints/Part2/AI/BTService_BlueprintBase_New.
+[2020.02.17-21.15.19:518][678]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.02.17-21.15.19:559][678]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.SKEL_Service_CanSeePlayer_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2020.02.17-21.15.19:560][678]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.Service_CanSeePlayer_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/AI/BTService_BlueprintBase_New.PackageMetaData'
+[2020.02.17-21.15.19:649][678]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Service_CanSeePlayer9B13A9EB4E3B66F50A30D591FDF320C6.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.uasset'
+[2020.02.17-21.15.19:864][678]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.02.17-21.15.19:912][678]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.02.17-21.15.19:953][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.02.17-21.15.20:019][678]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.
+[2020.02.17-21.15.20:028][678]AssetCheck: New page: Asset Save: Service_CanSeePlayer
+[2020.02.17-21.15.20:028][678]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.Service_CanSeePlayer
+[2020.02.17-21.18.19:592][854]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.02.17-21.18.19:737][854]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BTD582E9554BDEE9FD3EA5258D34C7F1EB.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-21.18.19:826][854]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Service_FindPlayer244336824DD173B4FC1119B6E307832C.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/Service_FindPlayer.uasset'
+[2020.02.17-21.18.19:858][854]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Service_CanSeePlayer884A919541A9550C99535D9BED67BFB7.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.uasset'
+[2020.02.17-21.18.19:884][854]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.17-21.18.19:884][854]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-21.18.19:884][854]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/Service_FindPlayer.Service_FindPlayer
+[2020.02.17-21.18.19:884][854]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.Service_CanSeePlayer
+[2020.02.17-21.19.34:259][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.02.17-21.19.34:260][208]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.043
+[2020.02.17-21.19.34:261][208]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer] ([1] browsable assets)...
+[2020.02.17-21.19.34:261][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer]
+[2020.02.17-21.19.34:275][208]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Service_CanSeePlayer_Auto44F267AD74EDD4A1BB2F5F2A00E84D1E2.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer_Auto4.uasset'
+[2020.02.17-21.19.34:277][208]LogFileHelpers: Auto-saving content packages took 0.016
+[2020.02.17-21.21.00:332][868]BlueprintLog: New page: Compile Service_CanSeePlayer
+[2020.02.17-21.21.00:378][868]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2020.02.17-21.21.10:678][484]BlueprintLog: New page: Compile Service_CanSeePlayer
+[2020.02.17-21.21.10:722][484]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.02.17-21.21.29:329][ 82]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.17-21.22.48:652][850]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2020.02.17-21.22.48:700][850]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT71285C884CE601BD8C70F48349319F1A.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-21.22.48:714][850]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_Blackboard94BEFDB94C7F1F40B51DC3A660518A51.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.uasset'
+[2020.02.17-21.22.48:734][850]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Service_CanSeePlayer121F99F849406801730ECDA6BA78EF47.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.uasset'
+[2020.02.17-21.22.48:763][850]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.17-21.22.48:763][850]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-21.22.48:763][850]LogContentValidation: Display: Validating BlackboardData /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.AI_Blackboard
+[2020.02.17-21.22.48:763][850]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.Service_CanSeePlayer
+[2020.02.17-21.22.49:475][893]BlueprintLog: New page: Compile Service_FindPlayer
+[2020.02.17-21.22.49:760][893]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.02.17-21.25.05:130][948]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2020.02.17-21.25.05:179][948]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT757F71794E30E6B8E34481A5F759FD45.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-21.25.05:204][948]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Service_FindPlayerF6752C6E4966EA55542651B56D79CA74.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/Service_FindPlayer.uasset'
+[2020.02.17-21.25.05:229][948]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Service_CanSeePlayerC747E7BB44892FE7E9DB95A18E437D87.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.uasset'
+[2020.02.17-21.25.05:255][948]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.17-21.25.05:255][948]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-21.25.05:255][948]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/Service_FindPlayer.Service_FindPlayer
+[2020.02.17-21.25.05:255][948]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/Service_CanSeePlayer.Service_CanSeePlayer
+[2020.02.17-21.25.11:213][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.02.17-21.25.36:866][815]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.02.17-21.25.36:941][815]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BTE2E0A5434B3823236DBEFC81A2E1FF73.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-21.25.36:954][815]AssetCheck: New page: Asset Save: AI_BT
+[2020.02.17-21.25.36:954][815]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-21.29.35:133][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.02.17-21.29.35:135][310]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.042
+[2020.02.17-21.29.35:135][310]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT] ([1] browsable assets)...
+[2020.02.17-21.29.35:135][310]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT]
+[2020.02.17-21.29.35:149][310]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT_Auto5B38E155F48F4A9E6B052C2A4BB705180.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT_Auto5.uasset'
+[2020.02.17-21.29.35:150][310]LogFileHelpers: Auto-saving content packages took 0.015
+[2020.02.17-21.30.46:191][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.02.17-21.30.46:293][600]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT6088758D4D6788B6E1FBB68A6CE6B3C8.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-21.30.46:307][600]AssetCheck: New page: Asset Save: AI_BT
+[2020.02.17-21.30.46:307][600]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-21.46.55:611][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.02.17-21.46.55:614][384]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.047
+[2020.02.17-21.46.55:614][384]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT] ([1] browsable assets)...
+[2020.02.17-21.46.55:614][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT]
+[2020.02.17-21.46.55:634][384]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT_Auto65D0AA6C346DDC0E699D5C3B99DDB2538.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT_Auto6.uasset'
+[2020.02.17-21.46.55:635][384]LogFileHelpers: Auto-saving content packages took 0.022
+[2020.02.17-21.47.10:667][853]LogBehaviorTree: Warning: > Failed to find key 'SelfActor' in BB asset BlackboardData /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.AI_Blackboard. BB Key Selector will be set to 'Invalid'
+[2020.02.17-21.47.10:670][853]LogBehaviorTree: Warning: Does path exist[65535]> Failed to find key 'SelfActor' in BB asset BlackboardData /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_Blackboard.AI_Blackboard. BB Key Selector will be set to 'Invalid'
+[2020.02.17-21.47.36:479][ 64]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/BTDecorator_BlueprintBase_New.BTDecorator_BlueprintBase_New
+[2020.02.17-21.47.36:801][ 64]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/ThirdPersonBP/Blueprints/Part2/AI/BTDecorator_BlueprintBase_New.
+[2020.02.17-21.47.51:115][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.02.17-21.47.51:124][897]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/Decorator_CanSeePlayer.SKEL_Decorator_CanSeePlayer_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/AI/BTDecorator_BlueprintBase_New.PackageMetaData'
+[2020.02.17-21.47.51:124][897]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Part2/AI/Decorator_CanSeePlayer.Decorator_CanSeePlayer_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Part2/AI/BTDecorator_BlueprintBase_New.PackageMetaData'
+[2020.02.17-21.47.51:225][897]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Decorator_CanSeePlayerC5FE07604DD93250E0D3C4A05E534F9E.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/Decorator_CanSeePlayer.uasset'
+[2020.02.17-21.47.51:458][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.02.17-21.47.51:512][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.02.17-21.47.51:554][897]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.02.17-21.47.51:620][897]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/ThirdPersonBP/Blueprints/Part2/AI/Decorator_CanSeePlayer.
+[2020.02.17-21.47.51:628][897]AssetCheck: New page: Asset Save: Decorator_CanSeePlayer
+[2020.02.17-21.47.51:628][897]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/Decorator_CanSeePlayer.Decorator_CanSeePlayer
+[2020.02.17-21.49.12:443][519]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.02.17-21.49.12:493][519]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT53BB221A441F1A29DBEFE6993EEB8A67.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-21.49.12:512][519]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/Decorator_CanSeePlayerF39B2C294656A0E3FEC6C6B18F78C7DE.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/Decorator_CanSeePlayer.uasset'
+[2020.02.17-21.49.12:536][519]AssetCheck: New page: Asset Save: multiple assets
+[2020.02.17-21.49.12:536][519]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-21.49.12:536][519]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Part2/AI/Decorator_CanSeePlayer.Decorator_CanSeePlayer
+[2020.02.17-21.49.14:285][624]BlueprintLog: New page: Compile Decorator_CanSeePlayer
+[2020.02.17-21.49.14:550][624]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2020.02.17-21.50.32:056][362]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.02.17-21.50.32:099][362]LogSavePackage: Moving '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Saved/AI_BT9821662749510C04B0F870B0CB9E5CBD.tmp' to '../../../../../../Tecnocampus/3r any/2n Trimestre/Motors de Jocs/MotorDeJocs_Practica1/Practica/Content/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.uasset'
+[2020.02.17-21.50.32:116][362]AssetCheck: New page: Asset Save: AI_BT
+[2020.02.17-21.50.32:116][362]LogContentValidation: Display: Validating BehaviorTree /Game/ThirdPersonBP/Blueprints/Part2/AI/AI_BT.AI_BT
+[2020.02.17-21.51.02:324][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.02.17-21.51.05:637][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.02.17-21.51.05:769][365]LogSlate: Window 'Practica - Unreal Editor' being destroyed
+[2020.02.17-21.51.05:933][365]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.02.17-21.51.05:933][365]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.05:934][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.17-21.51.06:344][365]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.06:344][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.17-21.51.06:425][365]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.06:425][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.17-21.51.06:484][365]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.06:484][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.17-21.51.06:654][366]Cmd: QUIT_EDITOR
+[2020.02.17-21.51.06:654][366]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.02.17-21.51.06:670][366]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.02.17-21.51.06:671][366]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.17-21.51.07:299][366]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.17-21.51.07:318][366]LogExit: Preparing to exit.
+[2020.02.17-21.51.07:924][366]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:926][366]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:927][366]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:928][366]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:930][366]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:931][366]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:932][366]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:933][366]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:934][366]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:935][366]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:936][366]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:937][366]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:938][366]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.07:939][366]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.08:014][366]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.02.17-21.51.08:070][366]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.02.17-21.51.08:076][366]LogExit: Editor shut down
+[2020.02.17-21.51.08:077][366]LogExit: Transaction tracking system shut down
+[2020.02.17-21.51.08:621][366]LogExit: Object subsystem successfully closed.
+[2020.02.17-21.51.08:642][366]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.02.17-21.51.08:674][366]LogModuleManager: Shutting down and abandoning module SequencerWidgets (704)
+[2020.02.17-21.51.08:674][366]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (702)
+[2020.02.17-21.51.08:674][366]LogModuleManager: Shutting down and abandoning module Voice (700)
+[2020.02.17-21.51.08:674][366]LogModuleManager: Shutting down and abandoning module BlueprintGraph (698)
+[2020.02.17-21.51.08:674][366]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (696)
+[2020.02.17-21.51.08:674][366]LogModuleManager: Shutting down and abandoning module AddContentDialog (694)
+[2020.02.17-21.51.08:716][366]LogModuleManager: Shutting down and abandoning module WidgetCarousel (693)
+[2020.02.17-21.51.08:716][366]LogModuleManager: Shutting down and abandoning module EditorWidgets (690)
+[2020.02.17-21.51.08:716][366]LogModuleManager: Shutting down and abandoning module CollectionManager (688)
+[2020.02.17-21.51.08:716][366]LogModuleManager: Shutting down and abandoning module SceneOutliner (686)
+[2020.02.17-21.51.08:716][366]LogModuleManager: Shutting down and abandoning module StatsViewer (684)
+[2020.02.17-21.51.08:716][366]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (682)
+[2020.02.17-21.51.08:716][366]LogModuleManager: Shutting down and abandoning module FoliageEdit (680)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module LandscapeEditor (678)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module MeshPaintMode (676)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (674)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module ActorPickerMode (672)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module GeometryMode (670)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module TextureAlignMode (668)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module BspMode (666)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (664)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (662)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module AutomationWorker (660)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module SteamVREditor (658)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module OculusMR (656)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (654)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (652)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (650)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module PlacementMode (649)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module MaterialEditor (648)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (644)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (642)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (640)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (638)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (636)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module WebMMedia (634)
+[2020.02.17-21.51.08:717][366]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (632)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (630)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module SequenceRecorder (629)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (626)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (624)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (622)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (620)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (618)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (616)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (614)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (612)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (610)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (608)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module CharacterAI (606)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module SmartSnapping (604)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module SessionServices (602)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module MeshPaint (600)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module ViewportSnapping (598)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module ViewportInteraction (596)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module ClothPainter (594)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (593)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module LogVisualizer (590)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module IntroTutorials (588)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (587)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (584)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (582)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (580)
+[2020.02.17-21.51.08:718][366]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (579)
+[2020.02.17-21.51.09:169][366]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (576)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (574)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (572)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (570)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (568)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (566)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module InputBindingEditor (564)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module MergeActors (562)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (560)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module LocalizationService (559)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module HardwareTargeting (556)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (554)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module UndoHistory (552)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module XmlParser (550)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module Blutility (548)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (546)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (545)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (542)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module SettingsEditor (540)
+[2020.02.17-21.51.09:170][366]LogModuleManager: Shutting down and abandoning module ProjectLauncher (538)
+[2020.02.17-21.51.09:171][366]LogModuleManager: Shutting down and abandoning module SessionFrontend (536)
+[2020.02.17-21.51.09:171][366]LogModuleManager: Shutting down and abandoning module ProfilerClient (534)
+[2020.02.17-21.51.09:171][366]LogModuleManager: Shutting down and abandoning module DeviceManager (532)
+[2020.02.17-21.51.09:171][366]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (531)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module AutomationController (528)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module AutomationWindow (526)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module Layers (524)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (522)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module DetailCustomizations (520)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module PackagesDialog (518)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (516)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module Persona (514)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (513)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module AnimGraph (511)
+[2020.02.17-21.51.09:204][366]LogModuleManager: Shutting down and abandoning module Kismet (508)
+[2020.02.17-21.51.09:213][366]LogModuleManager: Shutting down and abandoning module KismetWidgets (507)
+[2020.02.17-21.51.09:213][366]LogModuleManager: Shutting down and abandoning module GraphEditor (504)
+[2020.02.17-21.51.09:214][366]LogModuleManager: Shutting down and abandoning module StructViewer (502)
+[2020.02.17-21.51.09:214][366]LogModuleManager: Shutting down and abandoning module ClassViewer (500)
+[2020.02.17-21.51.09:215][366]LogModuleManager: Shutting down and abandoning module Toolbox (498)
+[2020.02.17-21.51.09:215][366]LogModuleManager: Shutting down and abandoning module ModuleUI (496)
+[2020.02.17-21.51.09:215][366]LogModuleManager: Shutting down and abandoning module OutputLog (494)
+[2020.02.17-21.51.09:217][366]LogModuleManager: Shutting down and abandoning module GammaUI (492)
+[2020.02.17-21.51.09:217][366]LogModuleManager: Shutting down and abandoning module Documentation (490)
+[2020.02.17-21.51.09:218][366]LogModuleManager: Shutting down and abandoning module ToolMenus (488)
+[2020.02.17-21.51.09:218][366]LogModuleManager: Shutting down and abandoning module LiveCoding (486)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module LevelSequence (484)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (482)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module MovieScene (480)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (478)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module LauncherPlatform (476)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module AnalyticsET (474)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module PortalServices (472)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module PortalRpc (470)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module MessagingRpc (468)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (466)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module AIModule (464)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module GameplayDebugger (463)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module AITestSuite (461)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module NavigationSystem (459)
+[2020.02.17-21.51.09:219][366]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (456)
+[2020.02.17-21.51.09:224][366]LogModuleManager: Shutting down and abandoning module ProfilerService (454)
+[2020.02.17-21.51.09:450][366]LogModuleManager: Shutting down and abandoning module TaskGraph (452)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module ScreenshotTools (450)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (448)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (446)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module OculusEditor (444)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module OculusInput (442)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (440)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module EditableMesh (438)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (436)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module CableComponent (434)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AudioCapture (432)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (431)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AssetTags (428)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (426)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (424)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AppleImageUtils (422)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AndroidPermission (420)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (418)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (416)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module MediaCompositing (414)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module ImgMedia (412)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (410)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (408)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (406)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (404)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (402)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module BackChannel (400)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (398)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AutomationUtils (396)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AlembicImporter (394)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module AlembicLibrary (393)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module GeometryCache (392)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (391)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (386)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (384)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (382)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module PluginBrowser (380)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (378)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (376)
+[2020.02.17-21.51.09:451][366]LogModuleManager: Shutting down and abandoning module CurveEditorTools (374)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (372)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module CryptoKeys (370)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (368)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (366)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module UObjectPlugin (364)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (362)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (360)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (358)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module GitSourceControl (356)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module SourceControl (355)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (352)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (350)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (348)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (346)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (344)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (342)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (340)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module Paper2DEditor (338)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2020.02.17-21.51.09:452][366]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2020.02.17-21.51.09:554][366]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2020.02.17-21.51.09:655][366]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2020.02.17-21.51.09:655][366]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2020.02.17-21.51.09:655][366]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.02.17-21.51.09:655][366]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2020.02.17-21.51.09:655][366]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2020.02.17-21.51.09:655][366]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2020.02.17-21.51.09:655][366]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2020.02.17-21.51.09:655][366]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2020.02.17-21.51.09:655][366]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2020.02.17-21.51.09:655][366]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2020.02.17-21.51.09:655][366]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.02.17-21.51.09:656][366]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.02.17-21.51.09:656][366]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2020.02.17-21.51.09:656][366]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2020.02.17-21.51.09:656][366]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2020.02.17-21.51.09:656][366]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2020.02.17-21.51.09:656][366]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2020.02.17-21.51.09:656][366]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2020.02.17-21.51.09:656][366]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2020.02.17-21.51.09:656][366]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2020.02.17-21.51.09:658][366]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2020.02.17-21.51.09:658][366]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2020.02.17-21.51.09:658][366]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2020.02.17-21.51.09:658][366]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2020.02.17-21.51.09:659][366]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2020.02.17-21.51.09:661][366]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2020.02.17-21.51.09:661][366]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2020.02.17-21.51.09:661][366]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2020.02.17-21.51.09:661][366]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2020.02.17-21.51.09:661][366]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2020.02.17-21.51.09:664][366]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module Core (206)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2020.02.17-21.51.09:665][366]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2020.02.17-21.51.09:667][366]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2020.02.17-21.51.09:668][366]LogDerivedDataCache: Shutdown
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2020.02.17-21.51.09:668][366]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2020.02.17-21.51.09:669][366]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2020.02.17-21.51.09:680][366]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.02.17-21.51.09:685][366]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2020.02.17-21.51.09:686][366]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2020.02.17-21.51.09:686][366]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2020.02.17-21.51.09:686][366]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.02.17-21.51.09:686][366]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.02.17-21.51.09:686][366]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.02.17-21.51.09:686][366]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.02.17-21.51.09:686][366]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.02.17-21.51.09:690][366]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.02.17-21.51.09:720][366]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.02.17-21.51.09:720][366]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.02.17-21.51.09:720][366]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.02.17-21.51.09:720][366]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.02.17-21.51.09:720][366]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.02.17-21.51.09:720][366]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.02.17-21.51.09:720][366]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.02.17-21.51.09:721][366]LogHMD: Freeing OpenVRDLLHandle.
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.02.17-21.51.09:721][366]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.02.17-21.51.09:722][366]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.02.17-21.51.09:722][366]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.02.17-21.51.09:738][366]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.02.17-21.51.09:738][366]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.02.17-21.51.09:738][366]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B18EF1B6A-43BF-9315-3C39-FA8CD43235D3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=367b6a6b42b940cf169de49312f552e3%7Cfc4da5f673c54ff78ed5927ab4b4070f%7C05d54f57-4268-4389-91ec-78f64e53a619&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.02.17-21.51.09:764][366]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.02.17-21.51.09:766][366]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.02.17-21.51.09:768][366]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.02.17-21.51.09:768][366]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.02.17-21.51.09:768][366]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.02.17-21.51.09:768][366]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.02.17-21.51.09:769][366]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.02.17-21.51.09:769][366]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.02.17-21.51.09:769][366]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.02.17-21.51.09:769][366]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.02.17-21.51.09:769][366]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.02.17-21.51.09:769][366]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.02.17-21.51.09:769][366]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.02.17-21.51.09:773][366]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.02.17-21.51.09:773][366]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.02.17-21.51.09:773][366]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.02.17-21.51.09:773][366]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.02.17-21.51.09:773][366]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.02.17-21.51.09:776][366]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.02.17-21.51.09:783][366]LogD3D11RHI: Shutdown
+[2020.02.17-21.51.09:783][366]LogD3D11RHI: CleanupD3DDevice
+[2020.02.17-21.51.09:799][366]LogExit: Exiting.
+[2020.02.17-21.51.09:814][366]Log file closed, 02/17/20 22:51:09
